@@ -1,0 +1,32 @@
+.modal-card {
+  width: $modal-card-width;
+}
+
+.modal-card-head {
+  border-bottom: 0;
+  border-radius: 0;
+  background-color: $white;
+  border-bottom: 1px solid $white-ter;
+}
+
+.modal-card-title {
+  font-size: $size-base;
+}
+
+.modal-card-body {
+  padding-top: $default-padding;
+  padding-bottom: $default-padding;
+}
+
+.modal-card-foot {
+  border-top: 0;
+  border-radius: 0;
+  background-color: $white-bis;
+}
+
+@include mobile {
+  .modal .animation-content .modal-card {
+    width: $modal-card-width-mobile;
+    margin: 0 auto;
+  }
+}

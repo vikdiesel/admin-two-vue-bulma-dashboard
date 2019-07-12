@@ -1,0 +1,18 @@
+hr {
+  height: 1px;
+}
+
+.icon.has-update-mark {
+  position: relative;
+
+  &:after {
+    content: '';
+    width: $icon-update-mark-size;
+    height: $icon-update-mark-size;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: $icon-update-mark-color;
+    border-radius: $radius-rounded;
+  }
+}
