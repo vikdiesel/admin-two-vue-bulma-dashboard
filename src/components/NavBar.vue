@@ -37,6 +37,10 @@
             </a>
           </div>
         </nav-bar-menu>
+        <a href="https://justboil.me/bulma-admin-template/two" class="navbar-item" title="About">
+          <b-icon icon="help-circle" custom-size="default"/>
+          <span>About</span>
+        </a>
         <a class="navbar-item" title="Log out" @click="logout">
           <b-icon icon="logout" custom-size="default"/>
           <span>Log out</span>

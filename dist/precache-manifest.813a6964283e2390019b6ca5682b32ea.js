@@ -44,15 +44,15 @@ self.__precacheManifest = [
     "url": "/fonts/materialdesignicons-webfont.84cd5ee6.eot"
   },
   {
-    "revision": "5de562dfaa30a74140dd",
-    "url": "/js/app.9e0b013e.js"
+    "revision": "c820b1d7f6971730fbd3",
+    "url": "/js/app.ef3da90d.js"
   },
   {
     "revision": "9ed33b873e49a44feb61a3e2fea0dc2a",
     "url": "/img/jblogo-icon.9ed33b87.png"
   },
   {
-    "revision": "0ca532b0f8efab2422d3ce3cd898cdd6",
+    "revision": "b897c6625d92d00ebad36e47c742604e",
     "url": "/index.html"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/css/chunk-vendors.438a79e0.css"
   },
   {
-    "revision": "5de562dfaa30a74140dd",
+    "revision": "c820b1d7f6971730fbd3",
     "url": "/css/app.f871bb83.css"
   }
 ];

@@ -42,6 +42,16 @@ export default {
           icon: 'account-circle'
         },
         {
+          href: 'https://admin-two.justboil.me',
+          label: 'Premium version',
+          icon: 'credit-card'
+        },
+        {
+          href: 'https://justboil.me/bulma-admin-template/two',
+          label: 'About',
+          icon: 'help-circle'
+        },
+        {
           label: 'Submenus',
           subLabel: 'Submenus Example',
           icon: 'view-list',
@@ -56,18 +66,6 @@ export default {
             }
           ]
         }
-      ]
-    },
-    menuBottom () {
-      return [
-        [
-          {
-            label: 'Log out',
-            icon: 'logout',
-            state: 'info',
-            href: 'https://admin-one.justboil.me/'
-          }
-        ]
       ]
     }
   }

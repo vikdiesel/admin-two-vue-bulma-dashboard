@@ -5,8 +5,8 @@
     <b-table
         :checkable="checkable"
         :loading="isLoading"
-        :paginated="true"
-        :per-page="10"
+        :paginated="paginated"
+        :per-page="perPage"
         :striped="true"
         :hoverable="true"
         default-sort="name"
@@ -87,7 +87,9 @@ export default {
       isModalActive: false,
       trashObject: null,
       clients: [],
-      isLoading: false
+      isLoading: false,
+      paginated: false,
+      perPage: 10
     }
   },
   computed: {
@@ -107,6 +109,9 @@ export default {
         .then(r => {
           this.isLoading = false
           if (r.data && r.data.data) {
+            if (r.data.data.length > this.perPage) {
+              this.paginated = true
+            }
             this.clients = r.data.data
           }
         })

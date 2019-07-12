@@ -2,6 +2,9 @@
   <section class="section">
     <title-bar>
       Welcome, John!
+      <a href="https://admin-two.justboil.me" class="button is-primary" slot="button">
+        Switch to Premium demo
+      </a>
     </title-bar>
     <tiles>
       <card-widget class="tile is-child" type="is-primary" icon="account-multiple" :number="512" label="Clients"/>
