@@ -2,6 +2,21 @@ hr {
   height: 1px;
 }
 
+.is-user-avatar {
+  &.has-max-width {
+    max-width: $size-base * 7;
+  }
+
+  &.is-aligned-center {
+    margin: 0 auto;
+  }
+
+  img {
+    margin: 0 auto;
+    border-radius: $radius-rounded;
+  }
+}
+
 .icon.has-update-mark {
   position: relative;
 

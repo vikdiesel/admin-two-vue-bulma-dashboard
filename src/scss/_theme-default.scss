@@ -10,8 +10,7 @@ $base-color: #051d38;
 $base-color-light: #f5f8fa;
 $base-gradient: linear-gradient(to right, $base-color, #1e344c);
 
-/* Override Bulma setting */
-//$primary: #033B4F;
+/* Override Primary */
 $primary: #203752;
 
 /* Default font */
@@ -41,14 +40,9 @@ $aside-width: $size-base * 12;
 $aside-logo-width: $size-base * 3;
 $aside-mobile-width: $size-base * 15;
 $aside-icon-width: $size-base * 3;
-$aside-font-size: $size-base * 1.25;
 $aside-submenu-font-size: $size-base * .95;
-$aside-tools-label-icon-spacing: $default-padding * .5;
 $aside-box-shadow: none;
 $aside-background-color: $base-color;
-$aside-logo-background-color: darken($aside-background-color, 10%);
-$aside-tools-color: $white;
-$aside-submenu-border-color: lighten($aside-background-color, 7.5);
 
 /* Card: Bulma override */
 $card-shadow: none;
@@ -75,11 +69,9 @@ $notification-padding: $default-padding * .75 $default-padding;
 /* Footer: Bulma override */
 $footer-background-color: $white;
 $footer-padding: $default-padding * .33 $default-padding;
+
+/* Footer: specifics */
 $footer-logo-height: $size-base * 2;
 
 /* Progress: Bulma override */
 $progress-bar-background-color: $white-ter;
-
-/* Spinkit */
-$spinkit-spinner-color: $grey-lighter;
-$spinkit-size: 80px;

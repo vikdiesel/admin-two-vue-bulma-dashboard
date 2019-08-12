@@ -1,7 +1,7 @@
 <template>
   <section class="section">
     <title-bar>
-      Welcome, John!
+      Welcome, {{ userName }}!
       <a href="https://admin-two.justboil.me" class="button is-primary" slot="button">
         Switch to Premium demo
       </a>
@@ -32,6 +32,7 @@
 
 <script>
 // @ is an alias to /src
+import { mapState } from 'vuex'
 import * as chartConfig from '@/components/Charts/chart.config'
 import CardComponent from '@/components/CardComponent'
 import Tiles from '@/components/Tiles'
@@ -58,10 +59,15 @@ export default {
       }
     }
   },
+  computed: {
+    ...mapState([
+      'userName'
+    ])
+  },
   mounted () {
     this.fillChartData()
 
-    this.$snackbar.open({
+    this.$buefy.snackbar.open({
       message: 'Welcome back',
       queue: false
     })

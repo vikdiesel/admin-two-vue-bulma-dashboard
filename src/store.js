@@ -5,6 +5,11 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
+    /* User */
+    userName: null,
+    userEmail: null,
+    userAvatar: null,
+
     /* NavBar */
     isNavBarVisible: true,
 
@@ -19,6 +24,19 @@ export default new Vuex.Store({
     /* A fit-them-all commit */
     basic (state, payload) {
       state[payload.key] = payload.value
+    },
+
+    /* User */
+    user (state, payload) {
+      if (payload.name) {
+        state.userName = payload.name
+      }
+      if (payload.email) {
+        state.userEmail = payload.email
+      }
+      if (payload.avatar) {
+        state.userAvatar = payload.avatar
+      }
     },
 
     /* Aside Mobile */

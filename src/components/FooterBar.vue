@@ -27,20 +27,6 @@ import { mapState } from 'vuex'
 
 export default {
   name: 'FooterBar',
-  props: {
-    appName: {
-      type: String,
-      default: null
-    },
-    logoUrl: {
-      type: String,
-      default: null
-    },
-    logoAlt: {
-      type: String,
-      default: null
-    }
-  },
   computed: {
     year () {
       return moment().year()

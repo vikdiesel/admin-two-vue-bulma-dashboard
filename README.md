@@ -9,9 +9,10 @@
 * Free under MIT License
 * SPA — Single page app
 * Built with VueCLI 3.6
+* Powered by Buefy
 * SCSS sources with variables
 * More than 17 custom components
-* Premium version coming soon
+* [Premium version](https://justboil.me/bulma-admin-template/one) available
 
 JustBoil.me is happy to share this dashboard with you. Feel free to give your feedback
 
@@ -26,17 +27,19 @@ JustBoil.me is happy to share this dashboard with you. Feel free to give your fe
 
 ## Description & Demo
 
-https://justboil.me/bulma-admin-template/two
+* Description: https://justboil.me/bulma-admin-template/two
+* **Free Dashboard Demo**: https://admin-two-free.justboil.me
+* **Premium Dashboard Demo**: https://admin-two.justboil.me
 
 ## Quick Start
 
 #### Get the repo
 
-Do one of the following
+Do one of the following:
 
 * Clone this repo
 * Download as zip-archive from GitHub
-* Download from JustBoil.me
+* Download at [JustBoil.me](https://justboil.me/bulma-admin-template/two)
 
 #### Install
 

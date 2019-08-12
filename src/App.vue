@@ -68,6 +68,13 @@ export default {
         }
       ]
     }
+  },
+  created () {
+    this.$store.commit('user', {
+      name: 'John Doe',
+      email: 'john@example.com',
+      avatar: '/data-sources/avatars/annie-spratt-121576-unsplash.jpg'
+    })
   }
 }
 </script>

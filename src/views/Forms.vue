@@ -122,7 +122,7 @@ export default {
         return null
       })
 
-      this.$snackbar.open({
+      this.$buefy.snackbar.open({
         message: 'Reset successfully',
         queue: false
       })
