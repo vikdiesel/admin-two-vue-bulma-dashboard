@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/fonts/materialdesignicons-webfont.fc03f7f1.ttf"
   },
   {
-    "revision": "c6a0594ef62173d59389",
+    "revision": "f16100c7babd2d3069f5",
     "url": "/js/app.13414856.js"
   },
   {
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/img/jblogo-icon.9ed33b87.png"
   },
   {
-    "revision": "4a7d27ec2b909094e9555991143921c2",
+    "revision": "37cc50ea4a85f50199e629c53043260e",
     "url": "/index.html"
   },
   {
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/css/chunk-vendors.f81c1bdf.css"
   },
   {
-    "revision": "c6a0594ef62173d59389",
-    "url": "/css/app.2a75adb5.css"
+    "revision": "f16100c7babd2d3069f5",
+    "url": "/css/app.86f32fe6.css"
   }
 ];
