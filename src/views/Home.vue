@@ -24,7 +24,7 @@
     </card-component>
 
     <card-component title="Clients" class="has-table">
-      <clients-table-sample data-url="/data-sources/clients.json"/>
+      <clients-table-sample data-url="/data-sources/clients.json" :checkable="true"/>
     </card-component>
 
   </section>
