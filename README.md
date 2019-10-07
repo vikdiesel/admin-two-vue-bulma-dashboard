@@ -1,6 +1,6 @@
 # [Admin Two Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
 
-![version](https://img.shields.io/badge/version-1.1.1-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![version](https://img.shields.io/badge/version-1.1.3-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ![Vue Bulma Admin Dashboard](https://justboil.me/images/two/preview-free.jpg)
 
@@ -8,7 +8,7 @@
 
 * Free under MIT License
 * SPA — Single page app
-* Built with VueCLI 3.6
+* Built with Vue CLI 3.6
 * Powered by Buefy
 * SCSS sources with variables
 * More than 17 custom components

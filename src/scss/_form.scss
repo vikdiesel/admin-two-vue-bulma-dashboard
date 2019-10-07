@@ -24,6 +24,10 @@
   }
 }
 
+.switch input[type=checkbox]+.check:before {
+  box-shadow: none;
+}
+
 .switch, .b-checkbox.checkbox {
   input[type=checkbox] {
     &:focus + .check, &:focus:checked + .check {
@@ -31,3 +35,11 @@
     }
   }
 }
+
+.b-checkbox.checkbox input[type=checkbox], .b-radio.radio input[type=radio] {
+  &+.check {
+    border: $checkbox-border;
+  }
+}
+
+
