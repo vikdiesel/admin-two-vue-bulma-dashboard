@@ -1,6 +1,6 @@
 # [Admin Two Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
 
-![version](https://img.shields.io/badge/version-1.1.3-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![version](https://img.shields.io/badge/version-1.1.4-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ![Vue Bulma Admin Dashboard](https://justboil.me/images/two/preview-free.jpg)
 
