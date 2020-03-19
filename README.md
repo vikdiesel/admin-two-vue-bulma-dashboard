@@ -1,4 +1,4 @@
-# [Admin Two — Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
+# [Admin Two — Free Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
 
 ![version](https://img.shields.io/badge/version-1.1.5-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
