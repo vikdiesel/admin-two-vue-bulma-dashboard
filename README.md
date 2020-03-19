@@ -1,20 +1,19 @@
-# [Admin Two Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
+# [Admin Two — Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
 
-![version](https://img.shields.io/badge/version-1.1.4-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+![version](https://img.shields.io/badge/version-1.1.5-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![Vue Bulma Admin Dashboard](https://justboil.me/images/two/preview-free.jpg)
+[![Vue.js Bulma free admin dashboard](https://justboil.me/images/two/repository-preview-free.png)](https://justboil.me/bulma-admin-template/two)
 
-**Admin Two Vue Bulma Dashboard** is simple yet beautiful Vue.js Bulma Admin Dashboard.
+**Admin Two** is simple, beautiful and free Vue.js Bulma Admin Dashboard.
 
 * Free under MIT License
-* SPA — Single page app
-* Built with Vue CLI 3.6
-* Powered by Buefy
+* PWA/SPA — Single page app
+* Built with Bulma, Buefy, Vue & Vue CLI
 * SCSS sources with variables
 * More than 17 custom components
 * [Premium version](https://justboil.me/bulma-admin-template/one) available
 
-JustBoil.me is happy to share this dashboard with you. Feel free to give your feedback
+[JustBoil.me](https://justboil.me) is excited to share this dashboard with community.
 
 ## Table of Contents
 
@@ -38,8 +37,7 @@ JustBoil.me is happy to share this dashboard with you. Feel free to give your fe
 Do one of the following:
 
 * Clone this repo
-* Download as zip-archive from GitHub
-* Download at [JustBoil.me](https://justboil.me/bulma-admin-template/two)
+* [Download .zip](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/archive/master.zip) from GitHub
 
 #### Install
 
@@ -69,15 +67,17 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 2. Provide steps to reproduce
 3. Provide an expected behavior
 4. Describe what is actually happening 
-5. Platfrom, Browser & version as some issues may be browser specific
+5. Platform, Browser & version as some issues may be browser specific
 
 ## Licensing
 
-- Copyright &copy; 2019 Viktor Kuzhelnyi (https://justboil.me)
+- Copyright &copy; 2019-2020 JustBoil.me (https://justboil.me)
 - Licensed under MIT
 
 ## Useful Links
 
 - [JustBoil.me](https://justboil.me)
-- [Affiliate Program](https://justboil.me/info/affiliates)
-- [VueCLI Configuration Reference](https://cli.vuejs.org/config/)
+- [Vue.js Guide](https://vuejs.org/v2/guide/)
+- [Vue CLI Guide](https://cli.vuejs.org/guide/)
+- [Buefy](https://buefy.org)
+- [Bulma](https://bulma.io)
