@@ -49,7 +49,7 @@ To pre-compile & hot-reload for development run `npm run serve`
 
 #### Build
 
-Production-ready with minifed bundle `npm run build`
+Production-ready with minified bundle `npm run build`
 
 ## Browser Support
 
