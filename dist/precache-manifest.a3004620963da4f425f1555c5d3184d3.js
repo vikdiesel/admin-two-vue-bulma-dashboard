@@ -32,7 +32,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/data-sources/avatars/nicolas-horn-689011-unsplash.jpg"
   },
   {
-    "revision": "c761978a7f41bc4a67db1179b4acbc09",
+    "revision": "7edfe75c70150bbad84a6623b21e2c81",
     "url": "/data-sources/clients.json"
   },
   {
