@@ -27,7 +27,7 @@
 ## Description & Demo
 
 * Description: https://justboil.me/bulma-admin-template/two
-* **Free Dashboard Demo**: https://admin-two-free.justboil.me
+* **Free Dashboard Demo**: https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/
 * **Premium Dashboard Demo**: https://admin-two.justboil.me
 
 ## Quick Start
@@ -36,7 +36,8 @@
 
 Do one of the following:
 
-* Clone this repo
+* [Create new repo](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/generate) from this template
+* Clone the repo
 * [Download .zip](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/archive/master.zip) from GitHub
 
 #### Install
