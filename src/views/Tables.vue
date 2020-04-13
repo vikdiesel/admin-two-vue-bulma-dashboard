@@ -14,7 +14,7 @@
     </notification>
 
     <card-component class="has-table" title="Clients" icon="account-multiple">
-      <clients-table-sample data-url="/data-sources/clients.json" :checkable="true"/>
+      <clients-table-sample :data-url="`${$router.options.base}data-sources/clients.json`" :checkable="true"/>
     </card-component>
 
     <hr>
@@ -27,7 +27,7 @@
     </notification>
 
     <card-component class="has-table has-mobile-sort-spaced">
-      <clients-table-sample data-url="/data-sources/clients.json" :checkable="true"/>
+      <clients-table-sample :data-url="`${$router.options.base}data-sources/clients.json`" :checkable="true"/>
     </card-component>
 
     <hr>
@@ -55,7 +55,3 @@ export default {
   components: { TitleBar, CardComponent, ClientsTableSample, Notification }
 }
 </script>
-
-<style scoped>
-
-</style>

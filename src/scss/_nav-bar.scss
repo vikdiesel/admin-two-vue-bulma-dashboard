@@ -1,5 +1,27 @@
 nav.navbar {
-  padding-right: 1.5rem;
+  padding-right: $default-padding;
+
+  .navbar-item {
+    &.has-control {
+      padding-top: 0;
+      padding-bottom: 0;
+
+      .control {
+        .input {
+          border: 0;
+          background: transparent;
+        }
+      }
+    }
+    &.has-user-avatar {
+      .is-user-avatar {
+        margin-right: $default-padding * .5;
+        display: inline-flex;
+        width: $navbar-avatar-size;
+        height: $navbar-avatar-size;
+      }
+    }
+  }
 }
 
 @include touch {
@@ -32,6 +54,15 @@ nav.navbar {
             .icon:last-child {
               display: none;
             }
+          }
+        }
+
+        &.has-user-avatar {
+          >.navbar-link {
+            display: flex;
+            align-items: center;
+            padding-top: $default-padding * .5;
+            padding-bottom: $default-padding * .5;
           }
         }
       }

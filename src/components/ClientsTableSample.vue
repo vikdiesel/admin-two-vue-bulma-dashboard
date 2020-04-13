@@ -15,7 +15,7 @@
       <template slot-scope="props">
         <b-table-column class="has-no-head-mobile is-image-cell">
           <div class="image">
-            <img :src="props.row.file" class="is-rounded">
+            <img :src="props.row.avatar" class="is-rounded">
           </div>
         </b-table-column>
         <b-table-column label="Name" field="name" sortable>

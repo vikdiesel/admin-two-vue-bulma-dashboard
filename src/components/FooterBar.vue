@@ -4,7 +4,9 @@
       <div class="level">
         <div class="level-left">
           <div class="level-item">
-            {{ year }}, JustBoil.me
+            <div>
+              <b>{{ year }}, JustBoil.me</b> &mdash; Admin Two Demo <span class="tag">v1.1.7</span>
+            </div>
           </div>
         </div>
         <div class="level-right">

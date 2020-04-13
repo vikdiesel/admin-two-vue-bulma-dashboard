@@ -17,9 +17,11 @@
 
 <script>
 import { mapState } from 'vuex'
+import AsideMenuList from '@/components/AsideMenuList'
 
 export default {
   name: 'AsideMenu',
+  components: { AsideMenuList },
   props: {
     menu: {
       type: Array,

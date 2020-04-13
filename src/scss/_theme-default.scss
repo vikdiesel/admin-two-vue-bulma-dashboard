@@ -22,6 +22,9 @@ $body-background-color: $base-color-light;
 /* Navbar: Bulma override */
 $navbar-dropdown-radius: $radius-small;
 
+/* Navbar: specifics */
+$navbar-avatar-size: 1.75rem;
+
 /* Icon: specifics */
 $icon-update-mark-size: $size-base * .5;
 $icon-update-mark-color: $yellow;
