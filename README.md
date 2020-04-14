@@ -2,7 +2,7 @@
 
 [![version](https://img.shields.io/badge/version-1.1.7-blue.svg)](https://justboil.me/bulma-admin-template/two)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/bulma-admin-template/two)
 
-[![Vue.js Bulma free admin dashboard](https://justboil.me/images/two/repository-preview-free.png)](https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/)
+[![Vue.js Bulma free admin dashboard](https://justboil.me/images/two/repository-preview-hi-res.png)](https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/)
 
 **Admin Two** is simple, beautiful and free Vue.js Bulma Admin Dashboard.
 
