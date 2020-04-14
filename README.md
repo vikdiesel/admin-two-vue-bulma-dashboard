@@ -1,19 +1,17 @@
 # [Admin Two — Free Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/two)
 
-![version](https://img.shields.io/badge/version-1.1.7-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
+[![version](https://img.shields.io/badge/version-1.1.7-blue.svg)](https://justboil.me/bulma-admin-template/two)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/bulma-admin-template/two)
 
-[![Vue.js Bulma free admin dashboard](https://justboil.me/images/two/repository-preview-free.png)](https://justboil.me/bulma-admin-template/two)
+[![Vue.js Bulma free admin dashboard](https://justboil.me/images/two/repository-preview-free.png)](https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/)
 
 **Admin Two** is simple, beautiful and free Vue.js Bulma Admin Dashboard.
 
 * Free under MIT License
 * PWA/SPA — Single page app
-* Built with Bulma, Buefy, Vue & Vue CLI
+* Built with Bulma, Buefy, Vue.js & Vue CLI
 * SCSS sources with variables
 * More than 17 custom components
 * [Premium version](https://justboil.me/bulma-admin-template/one) available
-
-[JustBoil.me](https://justboil.me) is excited to share this dashboard with community.
 
 ## Table of Contents
 
@@ -26,9 +24,17 @@
 
 ## Description & Demo
 
-* Description: https://justboil.me/bulma-admin-template/two
-* **Free Dashboard Demo**: https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/
-* **Premium Dashboard Demo**: https://admin-two.justboil.me
+#### Description
+
+https://justboil.me/bulma-admin-template/two
+
+#### Free Dashboard Demo 
+
+https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/
+
+#### Premium Dashboard Demo
+
+https://admin-two.justboil.me
 
 ## Quick Start
 
@@ -37,7 +43,7 @@
 Do one of the following:
 
 * [Create new repo](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/generate) from this template
-* Clone the repo
+* Clone the repo on GitHub
 * [Download .zip](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/archive/master.zip) from GitHub
 
 #### Install
@@ -56,7 +62,7 @@ Production-ready with minified bundle `npm run build`
 
 We try to make sure Dashboard works well in latest versions of all major browsers
 
-![Chrome](https://justboil.me/images/browsers/chrome.png) ![Firefox](https://justboil.me/images/browsers/firefox.png) ![Microsoft Edge](https://justboil.me/images/browsers/edge.png) ![Opera](https://justboil.me/images/browsers/opera.png) ![Safari](https://justboil.me/images/browsers/safari.png)
+<img src="https://justboil.me/images/browsers-svg/chrome.svg" width="64" height="64" alt="Chrome"> <img src="https://justboil.me/images/browsers-svg/firefox.svg" width="64" height="64" alt="Firefox"> <img src="https://justboil.me/images/browsers-svg/edge.svg" width="64" height="64" alt="Edge"> <img src="https://justboil.me/images/browsers-svg/safari.svg" width="64" height="64" alt="Safari"> <img src="https://justboil.me/images/browsers-svg/opera.svg" width="64" height="64" alt="Opera">
 
 ## Reporting Issues
 
