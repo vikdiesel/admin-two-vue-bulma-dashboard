@@ -11,7 +11,7 @@
 * Built with Bulma, Buefy, Vue.js & Vue CLI
 * SCSS sources with variables
 * More than 17 custom components
-* [Premium version](https://justboil.me/bulma-admin-template/one) available
+* [Premium version](https://justboil.me/bulma-admin-template/two) available
 
 ## Table of Contents
 
@@ -60,7 +60,7 @@ Production-ready with minified bundle `npm run build`
 
 ## Browser Support
 
-We try to make sure Dashboard works well in latest versions of all major browsers
+We try to make sure Dashboard works well in the latest versions of all major browsers
 
 <img src="https://justboil.me/images/browsers-svg/chrome.svg" width="64" height="64" alt="Chrome"> <img src="https://justboil.me/images/browsers-svg/firefox.svg" width="64" height="64" alt="Firefox"> <img src="https://justboil.me/images/browsers-svg/edge.svg" width="64" height="64" alt="Edge"> <img src="https://justboil.me/images/browsers-svg/safari.svg" width="64" height="64" alt="Safari"> <img src="https://justboil.me/images/browsers-svg/opera.svg" width="64" height="64" alt="Opera">
 
