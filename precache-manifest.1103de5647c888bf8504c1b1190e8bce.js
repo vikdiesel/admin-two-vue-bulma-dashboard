@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd94c0ec70c7ca0d9f4c",
-    "url": "/admin-two-vue-bulma-dashboard/css/app.9bf8b35e.css"
+    "revision": "60e2d4ab4eab8b7718e8",
+    "url": "/admin-two-vue-bulma-dashboard/css/app.29dbe89a.css"
   },
   {
     "revision": "eeaeb4a3eebc670da20483c2c01ac750",
@@ -20,28 +20,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/admin-two-vue-bulma-dashboard/img/justboil-logo.7298fabb.svg"
   },
   {
-    "revision": "1309a6806f2512b48d371f5e8969c466",
+    "revision": "d56440676bb2792f40fe1c8c5c0d56e1",
     "url": "/admin-two-vue-bulma-dashboard/index.html"
   },
   {
-    "revision": "dd94c0ec70c7ca0d9f4c",
-    "url": "/admin-two-vue-bulma-dashboard/js/app.d1128803.js"
+    "revision": "60e2d4ab4eab8b7718e8",
+    "url": "/admin-two-vue-bulma-dashboard/js/app.9afdd9a0.js"
   },
   {
-    "revision": "82676a963fa4c8411e22",
-    "url": "/admin-two-vue-bulma-dashboard/js/chunk-vendors.2e68a59e.js"
+    "revision": "f46810310f6cce968f92",
+    "url": "/admin-two-vue-bulma-dashboard/js/chunk-vendors.6aa95331.js"
   },
   {
-    "revision": "915a5c1e6e0eeb0c24d7",
-    "url": "/admin-two-vue-bulma-dashboard/js/forms.d91465ee.js"
+    "revision": "5629f11e9188616bb7ae",
+    "url": "/admin-two-vue-bulma-dashboard/js/forms.05b3ffab.js"
   },
   {
-    "revision": "d022715f8973748fa60b",
-    "url": "/admin-two-vue-bulma-dashboard/js/profile.e2409739.js"
+    "revision": "b02a9381b2a20cef48d3",
+    "url": "/admin-two-vue-bulma-dashboard/js/profile.bde3736c.js"
   },
   {
-    "revision": "a73dc004294436fff9fc",
-    "url": "/admin-two-vue-bulma-dashboard/js/tables.0cb15493.js"
+    "revision": "f33c0a14b7e0d49ccf41",
+    "url": "/admin-two-vue-bulma-dashboard/js/tables.b49af9b8.js"
   },
   {
     "revision": "386d14efc71884e3ad7ccecba4811df6",
