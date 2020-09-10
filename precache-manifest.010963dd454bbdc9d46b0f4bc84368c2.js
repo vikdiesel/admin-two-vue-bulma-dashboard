@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60e2d4ab4eab8b7718e8",
-    "url": "/admin-two-vue-bulma-dashboard/css/app.29dbe89a.css"
+    "revision": "d91aec5cc0e99b2323f0",
+    "url": "/admin-two-vue-bulma-dashboard/css/app.60d5f335.css"
   },
   {
-    "revision": "eeaeb4a3eebc670da20483c2c01ac750",
+    "revision": "8044447075d66d34a4655d0d6d654bb2",
     "url": "/admin-two-vue-bulma-dashboard/data-sources/clients.json"
   },
   {
@@ -20,28 +20,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/admin-two-vue-bulma-dashboard/img/justboil-logo.7298fabb.svg"
   },
   {
-    "revision": "d56440676bb2792f40fe1c8c5c0d56e1",
+    "revision": "89221892b2461e1abd455050a038b85d",
     "url": "/admin-two-vue-bulma-dashboard/index.html"
   },
   {
-    "revision": "60e2d4ab4eab8b7718e8",
-    "url": "/admin-two-vue-bulma-dashboard/js/app.9afdd9a0.js"
+    "revision": "d91aec5cc0e99b2323f0",
+    "url": "/admin-two-vue-bulma-dashboard/js/app.3f35d16c.js"
   },
   {
-    "revision": "f46810310f6cce968f92",
-    "url": "/admin-two-vue-bulma-dashboard/js/chunk-vendors.6aa95331.js"
+    "revision": "97df9267d9502722af4d",
+    "url": "/admin-two-vue-bulma-dashboard/js/chunk-vendors.08fece91.js"
   },
   {
-    "revision": "5629f11e9188616bb7ae",
-    "url": "/admin-two-vue-bulma-dashboard/js/forms.05b3ffab.js"
+    "revision": "035848e5cc3a1ae2ab42",
+    "url": "/admin-two-vue-bulma-dashboard/js/forms.9cae70bd.js"
   },
   {
-    "revision": "b02a9381b2a20cef48d3",
-    "url": "/admin-two-vue-bulma-dashboard/js/profile.bde3736c.js"
+    "revision": "c909d0c5f20533ea9bd2",
+    "url": "/admin-two-vue-bulma-dashboard/js/profile.fc581b0b.js"
   },
   {
-    "revision": "f33c0a14b7e0d49ccf41",
-    "url": "/admin-two-vue-bulma-dashboard/js/tables.b49af9b8.js"
+    "revision": "018718c75fc390a2d61a",
+    "url": "/admin-two-vue-bulma-dashboard/js/tables.2a2d1355.js"
   },
   {
     "revision": "386d14efc71884e3ad7ccecba4811df6",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/admin-two-vue-bulma-dashboard/precache-manifest.1103de5647c888bf8504c1b1190e8bce.js"
+  "/admin-two-vue-bulma-dashboard/precache-manifest.010963dd454bbdc9d46b0f4bc84368c2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "admin-two-vue-bulma-dashboard"});
