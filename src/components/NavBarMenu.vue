@@ -27,7 +27,7 @@ export default {
       return this.isDropdownActive ? 'chevron-up' : 'chevron-down'
     }
   },
-  created () {
+  mounted () {
     window.addEventListener('click', this.forceClose)
   },
   beforeDestroy () {

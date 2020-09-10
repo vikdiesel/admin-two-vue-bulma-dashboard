@@ -75,6 +75,9 @@ export default {
       email: 'john@example.com',
       avatar: 'https://avatars.dicebear.com/v2/gridy/John-Doe.svg'
     })
+  },
+  mounted () {
+    // mounted body
   }
 }
 </script>

@@ -21,6 +21,7 @@ export default {
       default: null
     },
     value: {
+      type: [String, Number],
       default: null
     }
   },

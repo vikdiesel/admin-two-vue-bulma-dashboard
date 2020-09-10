@@ -21,7 +21,8 @@ export default {
       default: null
     },
     value: {
-      default: []
+      type: Array,
+      default: () => []
     }
   },
   data () {
