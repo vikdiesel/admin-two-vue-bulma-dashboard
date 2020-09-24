@@ -88,6 +88,11 @@ export default {
       'isAsideMobileExpanded'
     ])
   },
+  mounted () {
+    this.$router.afterEach(() => {
+      this.isMenuNavBarActive = false
+    })
+  },
   methods: {
     menuToggleMobile () {
       this.$store.commit('asideMobileStateToggle')
