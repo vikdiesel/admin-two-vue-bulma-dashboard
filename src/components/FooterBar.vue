@@ -5,7 +5,7 @@
         <div class="level-left">
           <div class="level-item">
             <div>
-              <b>{{ year }}, JustBoil.me</b> &mdash; Admin Two Demo <span class="tag">v1.4.0</span>
+              <b>{{ year }}, JustBoil.me</b> &mdash; Admin Two Demo <span class="tag">v1.4.1</span>
             </div>
           </div>
         </div>
