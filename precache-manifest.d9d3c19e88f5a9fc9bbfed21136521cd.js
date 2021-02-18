@@ -4,7 +4,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/admin-two-vue-bulma-dashboard/css/app.96ee2fa4.css"
   },
   {
-    "revision": "8044447075d66d34a4655d0d6d654bb2",
+    "revision": "280779f08c8d9888186ff02bd6dfbd0a",
     "url": "/admin-two-vue-bulma-dashboard/data-sources/clients.json"
   },
   {
