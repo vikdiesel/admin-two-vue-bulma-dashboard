@@ -14,12 +14,32 @@
 
 ## Table of Contents
 
+* [Other versions](#other-versions)
 * [Description & Demo](#description-demo)
 * [Quick Start](#quick-start)
 * [Browser Support](#browser-support)
 * [Reporting Issues](#reporting-issues)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
+
+## Other versions
+
+This is Bulma Vue.js Buefy dashboard version.
+
+More info on free & premium versions of Admin One dashboard: https://justboil.me/bulma-admin-template/two
+
+<table>
+    <tr>
+        <td align="center"><a href="https://justboil.me/bulma-admin-template/two-html" title="Bulma admin dashboard HTML CSS SCSS"><img src="https://justboil.me/svg/language-html5.svg" width="64" height="64"></a></td>
+        <td align="center"><a href="https://github.com/vikdiesel/admin-two-vue-bulma-dashboard" title="Free Bulma Vue.js Buefy admin dashboard"><img src="https://justboil.me/svg/vuejs.svg" width="64" height="64"></a></td>
+        <td align="center"><a href="https://justboil.me/bulma-admin-template/two-nuxt" title="Bulma Nuxt.js Buefy admin dashboard"><img src="https://justboil.me/svg/nuxt.svg" width="64" height="64"></a></td>
+    </tr>
+    <tr>
+        <td align="center">Bulma admin dashboard<br/>HTML/CSS/SCSS<br/><br/><a href="https://justboil.me/bulma-admin-template/two-html" title="Premium Bulma admin dashboard HTML CSS SCSS">Premium</a></td>
+        <td align="center">Bulma admin dashboard<br/>Vue.js Buefy<br/><br/><a href="https://github.com/vikdiesel/admin-two-vue-bulma-dashboard" title="Free Bulma Vue.js Buefy admin dashboard">Free</a> | <a href="https://justboil.me/bulma-admin-template/two" title="Premium Bulma Vue.js Buefy admin dashboard">Premium</a></td>
+        <td align="center">Bulma admin dashboard<br/>Nuxt.js Buefy<br/><br/><a href="https://justboil.me/bulma-admin-template/two-nuxt" title="Premium Bulma Nuxt.js Buefy admin dashboard">Premium</a></td>
+    </tr>
+</table>
 
 ## Description & Demo
 
