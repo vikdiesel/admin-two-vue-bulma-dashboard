@@ -47,7 +47,7 @@ More info: https://github.com/justboil/admin-one-vue-tailwind
 
 #### Description
 
-https://justboil.me/bulma-admin-template/two
+https://justboil.me/bulma-admin-template/free-vue-dashboard-two/
 
 #### Free Dashboard Demo 
 
