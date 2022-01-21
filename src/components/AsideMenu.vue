@@ -1,23 +1,25 @@
 <template>
   <aside
-      v-show="isAsideVisible"
-      class="aside is-placed-left is-expanded">
+    v-show="isAsideVisible"
+    class="aside is-placed-left is-expanded"
+  >
     <div class="image">
-      <a href="https://justboil.me">
+      <router-link to="/">
         <img src="../assets/jblogo-icon.png">
-      </a>
+      </router-link>
     </div>
     <div class="menu is-menu-main">
       <aside-menu-list
-          @menu-click="menuClick"
-          :menu="menu"/>
+        :menu="menu"
+        @menu-click="menuClick"
+      />
     </div>
   </aside>
 </template>
 
 <script>
 import { mapState } from 'vuex'
-import AsideMenuList from '@/components/AsideMenuList'
+import AsideMenuList from '@/components/AsideMenuList.vue'
 
 export default {
   name: 'AsideMenu',

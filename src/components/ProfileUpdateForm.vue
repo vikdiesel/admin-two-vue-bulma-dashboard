@@ -1,20 +1,47 @@
 <template>
-  <card-component title="Edit Profile" icon="account-circle">
+  <card-component
+    title="Edit Profile"
+    icon="account-circle"
+  >
     <form @submit.prevent="submit">
-      <b-field horizontal label="Avatar">
-        <file-picker/>
+      <b-field
+        horizontal
+        label="Avatar"
+      >
+        <file-picker />
       </b-field>
       <hr>
-      <b-field horizontal label="Name" message="Required. Your name">
-        <b-input v-model="form.name" name="name" required/>
+      <b-field
+        horizontal
+        label="Name"
+        message="Required. Your name"
+      >
+        <b-input
+          v-model="form.name"
+          name="name"
+          required
+        />
       </b-field>
-      <b-field horizontal label="E-mail" message="Required. Your e-mail">
-        <b-input v-model="form.email" name="email" type="email" required/>
+      <b-field
+        horizontal
+        label="E-mail"
+        message="Required. Your e-mail"
+      >
+        <b-input
+          v-model="form.email"
+          name="email"
+          type="email"
+          required
+        />
       </b-field>
       <hr>
       <b-field horizontal>
         <div class="control">
-          <button type="submit" class="button is-primary" :class="{'is-loading':isLoading}">
+          <button
+            type="submit"
+            class="button is-primary"
+            :class="{'is-loading':isLoading}"
+          >
             Submit
           </button>
         </div>
@@ -25,8 +52,8 @@
 
 <script>
 import { mapState } from 'vuex'
-import FilePicker from '@/components/FilePicker'
-import CardComponent from '@/components/CardComponent'
+import FilePicker from '@/components/FilePicker.vue'
+import CardComponent from '@/components/CardComponent.vue'
 
 export default {
   name: 'ProfileUpdateForm',
@@ -50,6 +77,14 @@ export default {
       'userEmail'
     ])
   },
+  watch: {
+    userName (newValue) {
+      this.form.name = newValue
+    },
+    userEmail (newValue) {
+      this.form.email = newValue
+    }
+  },
   mounted () {
     this.form.name = this.userName
     this.form.email = this.userEmail
@@ -65,14 +100,6 @@ export default {
           queue: false
         })
       }, 500)
-    }
-  },
-  watch: {
-    userName (newValue) {
-      this.form.name = newValue
-    },
-    userEmail (newValue) {
-      this.form.email = newValue
     }
   }
 }

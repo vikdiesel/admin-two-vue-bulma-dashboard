@@ -1,59 +1,128 @@
 <template>
   <div>
-    <modal-box :is-active="isModalActive" :trash-object-name="trashObjectName" @confirm="trashConfirm"
-               @cancel="trashCancel"/>
+    <modal-box
+      :is-active="isModalActive"
+      :trash-object-name="trashObjectName"
+      @confirm="trashConfirm"
+      @cancel="trashCancel"
+    />
     <b-table
-        :checkable="checkable"
-        :loading="isLoading"
-        :paginated="paginated"
-        :per-page="perPage"
-        :striped="true"
-        :hoverable="true"
-        default-sort="name"
-        :data='clients'>
-
-      <b-table-column cell-class="has-no-head-mobile is-image-cell" v-slot="props">
+      :checkable="checkable"
+      :loading="isLoading"
+      :paginated="paginated"
+      :per-page="perPage"
+      :striped="true"
+      :hoverable="true"
+      default-sort="name"
+      :data="clients"
+    >
+      <b-table-column
+        v-slot="props"
+        cell-class="has-no-head-mobile is-image-cell"
+      >
         <div class="image">
-          <img :src="props.row.avatar" class="is-rounded">
+          <img
+            :src="props.row.avatar"
+            class="is-rounded"
+          >
         </div>
       </b-table-column>
-      <b-table-column label="Name" field="name" sortable v-slot="props">
+      <b-table-column
+        v-slot="props"
+        label="Name"
+        field="name"
+        sortable
+      >
         {{ props.row.name }}
       </b-table-column>
-      <b-table-column label="Company" field="company" sortable v-slot="props">
+      <b-table-column
+        v-slot="props"
+        label="Company"
+        field="company"
+        sortable
+      >
         {{ props.row.company }}
       </b-table-column>
-      <b-table-column label="City" field="city" sortable v-slot="props">
+      <b-table-column
+        v-slot="props"
+        label="City"
+        field="city"
+        sortable
+      >
         {{ props.row.city }}
       </b-table-column>
-      <b-table-column cell-class="is-progress-col" label="Progress" field="progress" sortable v-slot="props">
-        <progress class="progress is-small is-primary" :value="props.row.progress" max="100">{{ props.row.progress }}</progress>
+      <b-table-column
+        v-slot="props"
+        cell-class="is-progress-col"
+        label="Progress"
+        field="progress"
+        sortable
+      >
+        <progress
+          class="progress is-small is-primary"
+          :value="props.row.progress"
+          max="100"
+        >
+          {{ props.row.progress }}
+        </progress>
       </b-table-column>
-      <b-table-column label="Created" v-slot="props">
-        <small class="has-text-grey is-abbr-like" :title="props.row.created">{{ props.row.created }}</small>
+      <b-table-column
+        v-slot="props"
+        label="Created"
+      >
+        <small
+          class="has-text-grey is-abbr-like"
+          :title="props.row.created"
+        >{{ props.row.created }}</small>
       </b-table-column>
-      <b-table-column custom-key="actions" cell-class="is-actions-cell" v-slot="props">
-        <div class="buttons is-right">
-          <button class="button is-small is-primary">
-            <b-icon icon="account-edit" size="is-small"/>
+      <b-table-column
+        v-slot="props"
+        custom-key="actions"
+        cell-class="is-actions-cell"
+      >
+        <div class="buttons is-right no-wrap">
+          <button
+            class="button is-small is-primary"
+            @click.prevent="editClick"
+          >
+            <b-icon
+              icon="account-edit"
+              size="is-small"
+            />
           </button>
-          <button class="button is-small is-danger" type="button" @click.prevent="trashModal(props.row)">
-            <b-icon icon="trash-can" size="is-small"/>
+          <button
+            class="button is-small is-danger"
+            type="button"
+            @click.prevent="trashModal(props.row)"
+          >
+            <b-icon
+              icon="trash-can"
+              size="is-small"
+            />
           </button>
         </div>
       </b-table-column>
 
-      <section class="section" slot="empty">
+      <section
+        slot="empty"
+        class="section"
+      >
         <div class="content has-text-grey has-text-centered">
           <template v-if="isLoading">
             <p>
-              <b-icon icon="dots-horizontal" size="is-large"/>
+              <b-icon
+                icon="dots-horizontal"
+                size="is-large"
+              />
             </p>
             <p>Fetching data...</p>
           </template>
           <template v-else>
             <p>
-              <b-icon icon="emoticon-sad" size="is-large"/>
+              <b-icon
+                icon="emoticon-sad"
+                size="is-large"
+              />
             </p>
             <p>Nothing's there&hellip;</p>
           </template>
@@ -65,7 +134,7 @@
 
 <script>
 import axios from 'axios'
-import ModalBox from '@/components/ModalBox'
+import ModalBox from '@/components/ModalBox.vue'
 
 export default {
   name: 'ClientsTableSample',
@@ -136,6 +205,12 @@ export default {
     },
     trashCancel () {
       this.isModalActive = false
+    },
+    editClick () {
+      this.$buefy.snackbar.open({
+        message: 'Demo only',
+        queue: false
+      })
     }
   }
 }

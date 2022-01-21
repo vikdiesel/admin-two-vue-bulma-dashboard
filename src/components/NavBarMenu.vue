@@ -1,10 +1,19 @@
 <template>
-  <div class="navbar-item has-dropdown has-dropdown-with-icons" :class="{ 'is-hoverable':isHoverable, 'is-active':isDropdownActive }">
-    <a @click="toggle" class="navbar-link is-arrowless">
-      <slot></slot>
-      <b-icon :icon="toggleDropdownIcon" custom-size="default"/>
+  <div
+    class="navbar-item has-dropdown has-dropdown-with-icons"
+    :class="{ 'is-hoverable':isHoverable, 'is-active':isDropdownActive }"
+  >
+    <a
+      class="navbar-link is-arrowless"
+      @click="toggle"
+    >
+      <slot />
+      <b-icon
+        :icon="toggleDropdownIcon"
+        custom-size="default"
+      />
     </a>
-    <slot name="dropdown"></slot>
+    <slot name="dropdown" />
   </div>
 </template>
 

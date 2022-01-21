@@ -38,6 +38,11 @@ export default {
       return (this.newValue < 1000) ? this.newValue : numeral(this.newValue).format('0,0')
     }
   },
+  watch: {
+    value () {
+      this.growInit()
+    }
+  },
   mounted () {
     this.growInit()
   },
@@ -58,11 +63,6 @@ export default {
       setTimeout(() => {
         this.grow(m)
       }, 25)
-    }
-  },
-  watch: {
-    value () {
-      this.growInit()
     }
   }
 }

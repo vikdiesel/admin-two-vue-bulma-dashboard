@@ -1,5 +1,10 @@
 /* We'll need some initial vars to use here */
-@import "~bulma/sass/utilities/initial-variables";
+@import "node_modules/bulma/sass/utilities/initial-variables";
+
+/* App Scrollbars */
+$app-scrollbar-track: $grey-lighter;
+$app-scrollbar-thumb: $grey-light;
+$app-scrollbar-hover: $grey;
 
 /* Base: Size  */
 $size-base: 1rem;
@@ -46,6 +51,8 @@ $aside-icon-width: $size-base * 3;
 $aside-submenu-font-size: $size-base * .95;
 $aside-box-shadow: none;
 $aside-background-color: $base-color;
+$aside-scrollbar-track: #1e344c;
+$aside-scrollbar-thumb: $base-color;
 
 /* Card: Bulma override */
 $card-shadow: none;
@@ -70,7 +77,8 @@ $modal-card-width-mobile: 90vw;
 
 /* Notification: Bulma override */
 $notification-radius: $radius-small;
-$notification-padding: $default-padding * .75 $default-padding;
+$notification-padding: $default-padding * .75;
+$notification-padding-ltr: $notification-padding;
 
 /* Footer: Bulma override */
 $footer-background-color: $white;

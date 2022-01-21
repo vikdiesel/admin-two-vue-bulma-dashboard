@@ -1,13 +1,29 @@
 <template>
   <li :class="{'is-active':isDropdownActive}">
-    <component :is="componentIs" :to="itemTo" :href="itemHref" @click="menuClick" exact-active-class="is-active" :class="{'has-icon':!!item.icon}">
-      <b-icon v-if="item.icon" :icon="item.icon" :class="{ 'has-update-mark' : item.updateMark }" custom-size="default"  />
-      <span v-if="item.label" :class="{'menu-item-label':!!item.icon}">{{ item.label }}</span>
+    <component
+      :is="componentIs"
+      :to="itemTo"
+      :href="itemHref"
+      exact-active-class="is-active"
+      :class="{'has-icon':!!item.icon}"
+      @click="menuClick"
+    >
+      <b-icon
+        v-if="item.icon"
+        :icon="item.icon"
+        :class="{ 'has-update-mark' : item.updateMark }"
+        custom-size="default"
+      />
+      <span
+        v-if="item.label"
+        :class="{'menu-item-label':!!item.icon}"
+      >{{ item.label }}</span>
     </component>
     <aside-menu-list
-        v-if="hasDropdown"
-        :menu="item.menu"
-        :isSubmenuList="true"/>
+      v-if="hasDropdown"
+      :menu="item.menu"
+      :is-submenu-list="true"
+    />
   </li>
 </template>
 
@@ -15,12 +31,7 @@
 export default {
   name: 'AsideMenuItem',
   components: {
-    AsideMenuList: () => import('@/components/AsideMenuList')
-  },
-  data () {
-    return {
-      isDropdownActive: false
-    }
+    AsideMenuList: () => import('@/components/AsideMenuList.vue')
   },
   props: {
     item: {
@@ -28,13 +39,9 @@ export default {
       default: null
     }
   },
-  methods: {
-    menuClick () {
-      this.$emit('menu-click', this.item)
-
-      if (this.hasDropdown) {
-        this.isDropdownActive = (!this.isDropdownActive)
-      }
+  data () {
+    return {
+      isDropdownActive: false
     }
   },
   computed: {
@@ -49,6 +56,15 @@ export default {
     },
     itemHref () {
       return this.item.href ? this.item.href : null
+    }
+  },
+  methods: {
+    menuClick () {
+      this.$emit('menu-click', this.item)
+
+      if (this.hasDropdown) {
+        this.isDropdownActive = (!this.isDropdownActive)
+      }
     }
   }
 }

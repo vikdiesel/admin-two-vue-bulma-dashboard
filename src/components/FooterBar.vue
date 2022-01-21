@@ -1,11 +1,14 @@
 <template>
-  <footer v-show="isFooterBarVisible" class="footer">
+  <footer
+    v-show="isFooterBarVisible"
+    class="footer"
+  >
     <div class="container-fluid">
       <div class="level">
         <div class="level-left">
           <div class="level-item">
             <div>
-              <b>{{ year }}, JustBoil.me</b> &mdash; Admin Two Demo <span class="tag">v1.4.1</span>
+              <b>{{ year }}, JustBoil.me</b> &mdash; Admin Two Demo
             </div>
           </div>
         </div>
@@ -13,7 +16,10 @@
           <div class="level-item">
             <div class="logo">
               <a href="https://justboil.me">
-                <img src="../assets/justboil-logo.svg" alt="JustBoil.me"/>
+                <img
+                  src="../assets/justboil-logo.svg"
+                  alt="JustBoil.me"
+                >
               </a>
             </div>
           </div>
@@ -24,15 +30,16 @@
 </template>
 
 <script>
-import dayjs from 'dayjs'
 import { mapState } from 'vuex'
 
 export default {
   name: 'FooterBar',
+  data () {
+    return {
+      year: new Date().getFullYear()
+    }
+  },
   computed: {
-    year () {
-      return dayjs().year()
-    },
     ...mapState([
       'isFooterBarVisible'
     ])

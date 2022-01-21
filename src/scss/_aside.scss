@@ -16,7 +16,9 @@
   }
 
   aside.aside.is-expanded {
+    @include scrollbars($aside-scrollbar-track, $aside-scrollbar-thumb);
     width: $aside-width;
+    overflow-y: auto;
 
     .menu-list {
       @include icon-with-update-mark($aside-icon-width);

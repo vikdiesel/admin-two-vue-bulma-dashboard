@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @mixin transition($t) {
   transition: $t 250ms ease-in-out 50ms;
 }
@@ -7,7 +9,33 @@
     width: $icon-base-width;
 
     &.has-update-mark:after {
-      right: ($icon-base-width / 2) - .85;
+      right: math.div($icon-base-width, 2) - .85;
     }
+  }
+}
+
+@mixin scrollbars($track, $thumb, $hover: false) {
+  scrollbar-color: $thumb $track;
+  scrollbar-width: thin;
+  //overflow: overlay;
+
+  &::-webkit-scrollbar-track {
+    background-color: $track;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $thumb;
+    border-radius: .25rem;
+
+    @if ($hover != false) {
+      &:hover {
+        background-color: $hover;
+      }
+    }
+  }
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
   }
 }

@@ -1,14 +1,16 @@
 <template>
   <ul :class="{'menu-list':!isSubmenuList}">
-    <aside-menu-item v-for="(item,index) in menu"
-      @menu-click="menuClick"
+    <aside-menu-item
+      v-for="(item,index) in menu"
+      :key="index"
       :item="item"
-      :key="index"/>
+      @menu-click="menuClick"
+    />
   </ul>
 </template>
 
 <script>
-import AsideMenuItem from '@/components/AsideMenuItem'
+import AsideMenuItem from '@/components/AsideMenuItem.vue'
 
 export default {
   name: 'AsideMenuList',

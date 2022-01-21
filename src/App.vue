@@ -1,19 +1,16 @@
 <template>
   <div id="app">
-    <nav-bar/>
+    <nav-bar />
     <aside-menu :menu="menu" />
-    <router-view/>
-    <footer-bar/>
+    <router-view />
+    <footer-bar />
   </div>
 </template>
 
-<style lang="scss">
-
-</style>
 <script>
-import NavBar from '@/components/NavBar'
-import AsideMenu from '@/components/AsideMenu'
-import FooterBar from '@/components/FooterBar'
+import NavBar from '@/components/NavBar.vue'
+import AsideMenu from '@/components/AsideMenu.vue'
+import FooterBar from '@/components/FooterBar.vue'
 
 export default {
   components: { FooterBar, AsideMenu, NavBar },

@@ -2,47 +2,84 @@
   <section class="section">
     <title-bar>
       Welcome, {{ userName }}!
-      <a href="https://admin-two.justboil.me" class="button is-primary" slot="button">
+      <a
+        slot="button"
+        href="https://admin-two.justboil.me"
+        class="button is-primary"
+      >
         Switch to Premium demo
       </a>
     </title-bar>
     <tiles>
-      <card-widget class="tile is-child" type="is-primary" icon="account-multiple" :number="512" label="Clients"/>
-      <card-widget class="tile is-child" type="is-info" icon="cart-outline" :number="7770" prefix="$" label="Sales"/>
-      <card-widget class="tile is-child" type="is-success" icon="chart-timeline-variant" :number="256" suffix="%" label="Performance"/>
+      <card-widget
+        class="tile is-child"
+        type="is-primary"
+        icon="account-multiple"
+        :number="512"
+        label="Clients"
+      />
+      <card-widget
+        class="tile is-child"
+        type="is-info"
+        icon="cart-outline"
+        :number="7770"
+        prefix="$"
+        label="Sales"
+      />
+      <card-widget
+        class="tile is-child"
+        type="is-success"
+        icon="chart-timeline-variant"
+        :number="256"
+        suffix="%"
+        label="Performance"
+      />
     </tiles>
 
-    <card-component title="Performance" @header-icon-click="fillChartData" icon="finance" header-icon="reload">
-      <div v-if="defaultChart.chartData" class="chart-area">
-        <line-chart style="height: 100%"
-                    ref="bigChart"
-                    chart-id="big-line-chart"
-                    :chart-data="defaultChart.chartData"
-                    :extra-options="defaultChart.extraOptions">
-        </line-chart>
+    <card-component
+      title="Performance"
+      icon="finance"
+      header-icon="reload"
+      @header-icon-click="fillChartData"
+    >
+      <div
+        v-if="defaultChart.chartData"
+        class="chart-area"
+      >
+        <line-chart
+          ref="bigChart"
+          style="height: 100%"
+          chart-id="big-line-chart"
+          :chart-data="defaultChart.chartData"
+          :extra-options="defaultChart.extraOptions"
+        />
       </div>
     </card-component>
 
-    <card-component title="Clients" class="has-table">
-      <clients-table-sample :data-url="`${$router.options.base}data-sources/clients.json`" :checkable="true"/>
+    <card-component
+      title="Clients"
+      class="has-table"
+    >
+      <clients-table-sample
+        :data-url="`data-sources/clients.json`"
+      />
     </card-component>
-
   </section>
 </template>
 
 <script>
 // @ is an alias to /src
 import { mapState } from 'vuex'
-import * as chartConfig from '@/components/Charts/chart.config'
-import CardComponent from '@/components/CardComponent'
-import Tiles from '@/components/Tiles'
-import CardWidget from '@/components/CardWidget'
-import LineChart from '@/components/Charts/LineChart'
-import ClientsTableSample from '@/components/ClientsTableSample'
-import TitleBar from '@/components/TitleBar'
+import * as chartConfig from '@/components/Charts/chart.config.js'
+import CardComponent from '@/components/CardComponent.vue'
+import Tiles from '@/components/Tiles.vue'
+import CardWidget from '@/components/CardWidget.vue'
+import LineChart from '@/components/Charts/LineChart.js'
+import ClientsTableSample from '@/components/ClientsTableSample.vue'
+import TitleBar from '@/components/TitleBar.vue'
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
     TitleBar,
     ClientsTableSample,

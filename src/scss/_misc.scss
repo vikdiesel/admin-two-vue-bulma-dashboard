@@ -1,5 +1,6 @@
 hr {
   height: 1px;
+  background-color: $grey-lightest;
 }
 
 .is-user-avatar {
@@ -30,4 +31,8 @@ hr {
     background-color: $icon-update-mark-color;
     border-radius: $radius-rounded;
   }
+}
+
+.buttons.no-wrap {
+  flex-wrap: nowrap;
 }
