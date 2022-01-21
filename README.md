@@ -4,12 +4,16 @@
 
 [![Vue.js Bulma free admin dashboard](https://static.justboil.me/templates/two/repo-bulma-vue.png)](https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/)
 
-**Admin Two** is simple, beautiful and free Vue.js Bulma Buefy Admin Dashboard.
+**Admin Two** is simple, beautiful and free Vue.js Bulma Buefy admin dashboard
 
+* Built with **Vue.js 2.x** **Bulma** and **Buefy**
+* **Vue CLI** & **Vite** build tools support
+* Classic **Options API** using `data`, `computed`, `methods`, etc.
+* SPA with **Vuex** & **Router**
+* **SCSS sources** with variables
+* Reusable components
+* Responsive
 * Free under MIT License
-* PWA/SPA — Single page app
-* Built with Bulma, Buefy, Vue.js & Vue CLI
-* SCSS sources with variables
 * [Premium version](https://justboil.me/bulma-admin-template/two/) available
 
 ## Table of Contents
