@@ -19,6 +19,10 @@
   * [Vue.js 3 TailwindCSS](#vuejs-3-tailwindcss-dashboard)
 * [Description & Demo](#description-demo)
 * [Quick Start](#quick-start)
+  * [Get code & install](#get-code--install)
+  * [Vue CLI builds](#vue-cli-builds)
+  * [Vite builds](#vite-builds)
+  * [Linting](#linting)
 * [Browser Support](#browser-support)
 * [Reporting Issues](#reporting-issues)
 * [Licensing](#licensing)
@@ -59,25 +63,61 @@ https://admin-two.justboil.me
 
 ## Quick Start
 
+Get code & install. Then use either [Vue CLI](#vue-cli-builds) or [Vite](#vite-builds) builds.
+
+* [Get code & install](#get-code--install)
+* [Vue CLI builds](#vue-cli-builds)
+* [Vite builds](#vite-builds)
+
+### Get code & install
+
 #### Get the repo
 
-Do one of the following:
-
 * [Create new repo](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/generate) from this template
-* &hellip;or clone the repo on GitHub
-* &hellip;or [download .zip](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/archive/master.zip) from GitHub
+* &hellip; or clone the repo on GitHub
+* &hellip; or [download .zip](https://github.com/vikdiesel/admin-two-vue-bulma-dashboard/archive/master.zip) from GitHub
 
 #### Install
 
-`cd` to project's dir and run `npm install` 
+`cd` to project's dir and run `npm install`
 
-#### Serve
+### Vue CLI builds
 
-To pre-compile & hot-reload for development run `npm run serve`
+#### Compiles and hot-reloads for development
+```
+npm run serve
+```
 
-#### Build
+#### Compiles and minifies for production
+```
+npm run build
+```
 
-Production-ready with minified bundle `npm run build`
+### Vite builds
+
+[Vite](https://vitejs.dev) is next Generation Frontend Tooling featuring unbundled web-development
+
+#### Compiles and hot-reloads for development
+```
+npm run build
+```
+
+#### Compiles and minifies for production
+```
+npm run build:vite
+```
+
+### Linting
+
+#### Lint
+```
+npm run lint
+```
+
+#### Lints and fixes files
+```
+npm run lint:fix
+```
 
 ## Browser Support
 
