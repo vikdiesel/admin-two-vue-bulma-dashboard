@@ -193,8 +193,8 @@ export default {
         question: null
       },
       customElementsForm: {
-        checkbox: [],
-        radio: null,
+        checkbox: ['lorem'],
+        radio: 'one',
         switch: true,
         file: null
       },
