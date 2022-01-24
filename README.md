@@ -21,7 +21,7 @@
 * [Other versions](#other-versions)
   * [Bulma versions](#bulma-versions)
   * [Vue.js 3 TailwindCSS](#vuejs-3-tailwindcss-dashboard)
-* [Description & Demo](#description-demo)
+* [Description & Demo](#description--demo)
 * [Quick Start](#quick-start)
   * [Get code & install](#get-code--install)
   * [Vue CLI builds](#vue-cli-builds)
