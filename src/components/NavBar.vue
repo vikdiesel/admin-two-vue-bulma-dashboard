@@ -86,15 +86,16 @@
           </div>
         </nav-bar-menu>
         <a
-          href="https://justboil.me/bulma-admin-template/two"
+          href="https://github.com/vikdiesel/admin-two-vue-bulma-dashboard"
+          target="_blank"
           class="navbar-item"
-          title="About"
+          title="GitHub"
         >
           <b-icon
-            icon="help-circle-outline"
+            icon="github-circle"
             custom-size="default"
           />
-          <span>About</span>
+          <span>GitHub</span>
         </a>
         <a
           class="navbar-item"

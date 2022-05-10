@@ -42,12 +42,14 @@ export default defineComponent({
         {
           href: 'https://admin-two.justboil.me',
           label: 'Premium version',
-          icon: 'credit-card'
+          icon: 'credit-card',
+          target: '_blank'
         },
         {
-          href: 'https://justboil.me/bulma-admin-template/two',
-          label: 'About',
-          icon: 'help-circle'
+          href: 'https://github.com/vikdiesel/admin-two-vue-bulma-dashboard',
+          label: 'GitHub',
+          icon: 'github-circle',
+          target: '_blank'
         },
         {
           label: 'Submenus',
