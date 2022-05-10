@@ -113,8 +113,8 @@
 </template>
 
 <script>
-import NavBarMenu from '@/components/NavBarMenu.vue'
 import { mapState } from 'vuex'
+import NavBarMenu from '@/components/NavBarMenu.vue'
 
 export default {
   name: 'NavBar',
