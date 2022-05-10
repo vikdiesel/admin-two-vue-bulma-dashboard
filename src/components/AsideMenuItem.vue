@@ -2,8 +2,9 @@
   <li :class="{'is-active':isDropdownActive}">
     <component
       :is="componentIs"
-      :to="itemTo"
-      :href="itemHref"
+      :to="item.to"
+      :href="item.href"
+      :target="item.target"
       exact-active-class="is-active"
       :class="{'has-icon':!!item.icon}"
       @click="menuClick"
@@ -52,12 +53,6 @@ export default defineComponent({
     },
     hasDropdown () {
       return !!this.item.menu
-    },
-    itemTo () {
-      return this.item.to ? this.item.to : null
-    },
-    itemHref () {
-      return this.item.href ? this.item.href : null
     }
   },
   methods: {
