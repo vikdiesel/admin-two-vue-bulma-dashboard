@@ -27,6 +27,7 @@
   * [Vue CLI builds](#vue-cli-builds)
   * [Vite builds](#vite-builds)
   * [Linting](#linting)
+  * [Laravel 9.x integration](#laravel-9x-integration)
 * [Browser Support](#browser-support)
 * [Reporting Issues](#reporting-issues)
 * [Licensing](#licensing)
@@ -122,6 +123,10 @@ npm run lint
 ```
 npm run lint:fix
 ```
+
+### Laravel 9.x integration
+
+This dashboard can be integrated with Laravel 9.x Jetstream Inertia + Vue.js stack. Guide is coming soon.
 
 ## Browser Support
 
