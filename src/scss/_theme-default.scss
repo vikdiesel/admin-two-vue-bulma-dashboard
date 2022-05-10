@@ -37,7 +37,7 @@ $icon-update-mark-color: $yellow;
 /* Aside: Bulma override */
 $menu-item-radius: 0;
 $menu-list-link-padding: $size-base 0;
-$menu-item-color: rgba($white, .3);
+$menu-item-color: $white;
 $menu-item-hover-color: $white;
 $menu-item-hover-background-color: darken($base-color, 3.5%);
 $menu-item-active-color: $white;
