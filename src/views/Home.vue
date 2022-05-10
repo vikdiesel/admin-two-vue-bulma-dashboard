@@ -67,6 +67,7 @@
 
 <script>
 // @ is an alias to /src
+import { defineComponent } from '@vue/composition-api'
 import { mapState } from 'vuex'
 import * as chartConfig from '@/components/Charts/chart.config.js'
 import CardComponent from '@/components/CardComponent.vue'
@@ -76,7 +77,7 @@ import LineChart from '@/components/Charts/LineChart.vue'
 import ClientsTableSample from '@/components/ClientsTableSample.vue'
 import TitleBar from '@/components/TitleBar.vue'
 
-export default {
+export default defineComponent({
   name: 'Home',
   components: {
     TitleBar,
@@ -109,5 +110,5 @@ export default {
       this.chartData = chartConfig.sampleChartData()
     }
   }
-}
+})
 </script>

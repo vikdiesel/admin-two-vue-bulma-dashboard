@@ -21,7 +21,9 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
   name: 'RadioPicker',
   props: {
     options: {
@@ -55,5 +57,5 @@ export default {
       this.$emit('input', this.newValue)
     }
   }
-}
+})
 </script>

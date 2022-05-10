@@ -69,13 +69,14 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import Notification from '@/components/Notification.vue'
 import ClientsTableSample from '@/components/ClientsTableSample.vue'
 import CardComponent from '@/components/CardComponent.vue'
 import TitleBar from '@/components/TitleBar.vue'
 
-export default {
+export default defineComponent({
   name: 'Tables',
   components: { TitleBar, CardComponent, ClientsTableSample, Notification }
-}
+})
 </script>

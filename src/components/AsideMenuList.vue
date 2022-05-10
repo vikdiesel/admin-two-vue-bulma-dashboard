@@ -10,9 +10,10 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import AsideMenuItem from '@/components/AsideMenuItem.vue'
 
-export default {
+export default defineComponent({
   name: 'AsideMenuList',
   components: {
     AsideMenuItem
@@ -32,5 +33,5 @@ export default {
       this.$emit('menu-click', item)
     }
   }
-}
+})
 </script>

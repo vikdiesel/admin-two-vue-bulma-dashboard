@@ -51,11 +51,12 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import { mapState } from 'vuex'
 import FilePicker from '@/components/FilePicker.vue'
 import CardComponent from '@/components/CardComponent.vue'
 
-export default {
+export default defineComponent({
   name: 'ProfileUpdateForm',
   components: {
     CardComponent,
@@ -102,5 +103,5 @@ export default {
       }, 500)
     }
   }
-}
+})
 </script>

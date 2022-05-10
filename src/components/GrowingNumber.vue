@@ -5,9 +5,10 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import numeral from 'numeral'
 
-export default {
+export default defineComponent({
   name: 'GrowingNumber',
   props: {
     prefix: {
@@ -65,5 +66,5 @@ export default {
       }, 25)
     }
   }
-}
+})
 </script>

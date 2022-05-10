@@ -1,7 +1,8 @@
 <script>
+import { defineComponent } from '@vue/composition-api'
 import chunk from 'lodash/chunk'
 
-export default {
+export default defineComponent({
   name: 'Tiles',
   props: {
     maxPerRow: {
@@ -25,5 +26,5 @@ export default {
       }))
     }
   }
-}
+})
 </script>

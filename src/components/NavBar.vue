@@ -113,10 +113,11 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import { mapState } from 'vuex'
 import NavBarMenu from '@/components/NavBarMenu.vue'
 
-export default {
+export default defineComponent({
   name: 'NavBar',
   components: {
     NavBarMenu
@@ -159,5 +160,5 @@ export default {
       })
     }
   }
-}
+})
 </script>

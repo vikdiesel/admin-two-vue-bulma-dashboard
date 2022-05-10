@@ -32,7 +32,9 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
   name: 'CardComponent',
   props: {
     title: {
@@ -53,5 +55,5 @@ export default {
       this.$emit('header-icon-click')
     }
   }
-}
+})
 </script>

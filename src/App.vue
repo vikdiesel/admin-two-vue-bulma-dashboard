@@ -8,11 +8,12 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import NavBar from '@/components/NavBar.vue'
 import AsideMenu from '@/components/AsideMenu.vue'
 import FooterBar from '@/components/FooterBar.vue'
 
-export default {
+export default defineComponent({
   components: { FooterBar, AsideMenu, NavBar },
   computed: {
     menu () {
@@ -76,5 +77,5 @@ export default {
   mounted () {
     // mounted body
   }
-}
+})
 </script>

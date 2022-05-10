@@ -21,7 +21,9 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
   name: 'FilePicker',
   props: {
     accept: {
@@ -68,5 +70,5 @@ export default {
       this.uploadPercent = Math.round((progressEvent.loaded * 100) / progressEvent.total)
     }
   }
-}
+})
 </script>

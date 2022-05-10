@@ -48,6 +48,7 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import { mapState } from 'vuex'
 import CardComponent from '@/components/CardComponent.vue'
 import TitleBar from '@/components/TitleBar.vue'
@@ -55,7 +56,7 @@ import ProfileUpdateForm from '@/components/ProfileUpdateForm.vue'
 import PasswordUpdateForm from '@/components/PasswordUpdateForm.vue'
 import Tiles from '@/components/Tiles.vue'
 
-export default {
+export default defineComponent({
   name: 'Profile',
   components: { Tiles, PasswordUpdateForm, ProfileUpdateForm, TitleBar, CardComponent },
   computed: {
@@ -65,5 +66,5 @@ export default {
       'userEmail'
     ])
   }
-}
+})
 </script>

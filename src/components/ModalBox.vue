@@ -38,7 +38,9 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
   name: 'ModalBox',
   props: {
     isActive: {
@@ -73,5 +75,5 @@ export default {
       this.$emit('confirm')
     }
   }
-}
+})
 </script>

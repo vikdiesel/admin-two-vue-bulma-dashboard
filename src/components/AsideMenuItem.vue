@@ -28,7 +28,9 @@
 </template>
 
 <script>
-export default {
+import { defineComponent } from '@vue/composition-api'
+
+export default defineComponent({
   name: 'AsideMenuItem',
   components: {
     AsideMenuList: () => import('@/components/AsideMenuList.vue')
@@ -67,5 +69,5 @@ export default {
       }
     }
   }
-}
+})
 </script>

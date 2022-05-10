@@ -171,6 +171,7 @@
 </template>
 
 <script>
+import { defineComponent } from '@vue/composition-api'
 import mapValues from 'lodash/mapValues'
 import TitleBar from '@/components/TitleBar.vue'
 import CardComponent from '@/components/CardComponent.vue'
@@ -178,7 +179,7 @@ import CheckboxPicker from '@/components/CheckboxPicker.vue'
 import RadioPicker from '@/components/RadioPicker.vue'
 import FilePicker from '@/components/FilePicker.vue'
 
-export default {
+export default defineComponent({
   name: 'Forms',
   components: { FilePicker, RadioPicker, CheckboxPicker, CardComponent, TitleBar },
   data () {
@@ -223,5 +224,5 @@ export default {
       })
     }
   }
-}
+})
 </script>
