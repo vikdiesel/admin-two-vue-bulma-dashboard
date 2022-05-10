@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section is-main-section">
     <title-bar>
       Tables
       <router-link
