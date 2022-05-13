@@ -10,6 +10,7 @@
 * **Vue CLI** & **Vite** build tools support
 * Classic **Options API** using `data`, `computed`, `methods`, etc.
 * SPA with **Vuex** & **Router**
+* **Styled** scrollbars
 * **SCSS sources** with variables
 * Reusable components
 * Responsive
