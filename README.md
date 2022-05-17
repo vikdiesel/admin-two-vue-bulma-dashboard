@@ -8,6 +8,7 @@
 
 * Built with **Vue.js 2.x** **Bulma** and **Buefy**
 * **Vue CLI** & **Vite** build tools support
+* **Laravel Jetstream Inertia Vue** integration available &mdash; [Info](#laravel-9x-integration)
 * Classic **Options API** using `data`, `computed`, `methods`, etc.
 * SPA with **Vuex** & **Router**
 * **Styled** scrollbars
@@ -20,8 +21,8 @@
 ## Table of Contents
 
 * [Other versions](#other-versions)
-  * [Bulma versions](#bulma-versions)
-  * [Vue.js 3 TailwindCSS](#vuejs-3-tailwindcss-dashboard)
+  * [Bulma dashboard versions](#bulma-dashboard-versions)
+  * [TailwindCSS dashboard versions](#tailwindcss-dashboard-versions)
 * [Description & Demo](#description--demo)
 * [Quick Start](#quick-start)
   * [Get code & install](#get-code--install)
@@ -36,22 +37,13 @@
 
 ## Other versions
 
-### Bulma versions
+### Bulma dashboard versions
 
-Other Bulma dashboard versions: https://justboil.me/bulma-admin-template/
+Free and premium [Bulma dashboard templates](https://justboil.me/bulma-admin-template/).
 
-### Vue.js 3 TailwindCSS dashboard
+### TailwindCSS dashboard versions
 
-* Built with **Vue.js 3**, **TailwindCSS** framework & **Composition API**
-* **Vite** and **Vue CLI** build tools
-* **Dark mode**
-* **Styled** scrollbars
-* SPA with **Vuex** & **Router**
-* **Production CSS** is only **33kb**
-
-More info: https://github.com/justboil/admin-one-vue-tailwind
-
-[![Free Vue.js 3 Tailwind CSS admin dashboard](https://justboil.me/images/one-v3/repository-tailwind-vue3-vite.png)](https://github.com/justboil/admin-one-vue-tailwind)
+Free and premium [Tailwindcss dashboard templates](https://justboil.me/tailwind-admin-templates/) (Vue 3.x available).
 
 ## Description & Demo
 
@@ -127,11 +119,11 @@ npm run lint:fix
 
 ### Laravel 9.x integration
 
-This dashboard can be integrated with Laravel 9.x Jetstream Inertia + Vue.js stack. Guide is coming soon.
+This dashboard can be integrated with **Laravel 9.x Jetstream Inertia + Vue.js** stack. [Check guide](https://github.com/vikdiesel/admin-one-laravel-dashboard) for more information.
 
 ## Browser Support
 
-We try to make sure Dashboard works well in the latest versions of all major browsers
+We try to make sure Dashboard works well in the latest versions of all major browsers:
 
 <img src="https://justboil.me/images/browsers-svg/chrome.svg" width="64" height="64" alt="Chrome"> <img src="https://justboil.me/images/browsers-svg/firefox.svg" width="64" height="64" alt="Firefox"> <img src="https://justboil.me/images/browsers-svg/edge.svg" width="64" height="64" alt="Edge"> <img src="https://justboil.me/images/browsers-svg/safari.svg" width="64" height="64" alt="Safari"> <img src="https://justboil.me/images/browsers-svg/opera.svg" width="64" height="64" alt="Opera">
 
