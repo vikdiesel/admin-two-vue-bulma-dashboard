@@ -1,63 +1,28 @@
-# [Admin Two — Free Vue Bulma Admin Dashboard](https://justboil.me/bulma-admin-template/free-vue-dashboard-two/)
+# Admin Two — Free Vue Bulma Admin Dashboard (archived)
 
-[![version](https://img.shields.io/github/v/release/vikdiesel/admin-two-vue-bulma-dashboard)](https://justboil.me/bulma-admin-template/free-vue-dashboard-two/)  [![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://justboil.me/bulma-admin-template/free-vue-dashboard-two/)
+[![Vue.js Bulma free admin dashboard](https://static.justboil.me/templates/two/repo-bulma-vue.png)](https://justboil.me/bulma-admin-template/)
 
-[![Vue.js Bulma free admin dashboard](https://static.justboil.me/templates/two/repo-bulma-vue.png)](https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/)
+## Project is archived
 
-**Admin Two** is simple, beautiful and free Vue.js Bulma Buefy admin dashboard
+Please check other template versions.
 
-* Built with **Vue.js 2.x** **Bulma** and **Buefy**
-* **Vue CLI** & **Vite** build tools support
-* **Laravel Jetstream Inertia Vue** integration available &mdash; [Info](#laravel-9x-integration)
-* Classic **Options API** using `data`, `computed`, `methods`, etc.
-* SPA with **Vuex** & **Router**
-* **Styled** scrollbars
-* **SCSS sources** with variables
-* Reusable components
-* Responsive
-* Free under MIT License
-* [Premium version](https://justboil.me/bulma-admin-template/two/) available
+### Bulma versions
+
+Free and premium Bulma dashboard templates: https://justboil.me/bulma-admin-template/
+
+### TailwindCSS versions
+
+Free and premium Tailwindcss dashboard templates: https://justboil.me/tailwind-admin-templates/
 
 ## Table of Contents
 
-* [Other versions](#other-versions)
-  * [Bulma dashboard versions](#bulma-dashboard-versions)
-  * [TailwindCSS dashboard versions](#tailwindcss-dashboard-versions)
-* [Description & Demo](#description--demo)
 * [Quick Start](#quick-start)
   * [Get code & install](#get-code--install)
   * [Vue CLI builds](#vue-cli-builds)
   * [Vite builds](#vite-builds)
   * [Linting](#linting)
-  * [Laravel 9.x integration](#laravel-9x-integration)
-* [Browser Support](#browser-support)
-* [Reporting Issues](#reporting-issues)
 * [Licensing](#licensing)
 * [Useful Links](#useful-links)
-
-## Other versions
-
-### Bulma dashboard versions
-
-Free and premium [Bulma dashboard templates](https://justboil.me/bulma-admin-template/).
-
-### TailwindCSS dashboard versions
-
-Free and premium [Tailwindcss dashboard templates](https://justboil.me/tailwind-admin-templates/) (Vue 3.x available).
-
-## Description & Demo
-
-#### Description
-
-https://justboil.me/bulma-admin-template/free-vue-dashboard-two/
-
-#### Free Dashboard Demo 
-
-https://vikdiesel.github.io/admin-two-vue-bulma-dashboard/
-
-#### Premium Dashboard Demo
-
-https://admin-two.justboil.me
 
 ## Quick Start
 
@@ -116,28 +81,6 @@ npm run lint
 ```
 npm run lint:fix
 ```
-
-### Laravel 9.x integration
-
-This dashboard can be integrated with **Laravel 9.x Jetstream Inertia + Vue.js** stack. [Check guide](https://github.com/vikdiesel/admin-one-laravel-dashboard) for more information.
-
-## Browser Support
-
-We try to make sure Dashboard works well in the latest versions of all major browsers:
-
-<img src="https://justboil.me/images/browsers-svg/chrome.svg" width="64" height="64" alt="Chrome"> <img src="https://justboil.me/images/browsers-svg/firefox.svg" width="64" height="64" alt="Firefox"> <img src="https://justboil.me/images/browsers-svg/edge.svg" width="64" height="64" alt="Edge"> <img src="https://justboil.me/images/browsers-svg/safari.svg" width="64" height="64" alt="Safari"> <img src="https://justboil.me/images/browsers-svg/opera.svg" width="64" height="64" alt="Opera">
-
-## Reporting Issues
-
-JustBoil's free items are limited to community support on GitHub.
-
-The issue list is reserved exclusively for bug reports and feature requests. That means we do not accept usage questions. If you open an issue that does not conform to the requirements, it will be closed.
-
-1. Make sure you are using the latest version of the dashboard
-2. Provide steps to reproduce
-3. Provide an expected behavior
-4. Describe what is actually happening 
-5. Platform, Browser & version as some issues may be browser specific
 
 ## Licensing
 
